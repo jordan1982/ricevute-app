@@ -1,0 +1,20 @@
+# Dipendenze
+node_modules
+
+# Cartelle di build
+build
+dist
+
+# Variabili d'ambiente (chiavi API, URL Supabase, ecc.)
+.env
+.env.local
+.env.*.local
+
+# File di sistema ed editor
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+
+# Log
+npm-debug.log*

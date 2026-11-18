@@ -1,0 +1,1 @@
+function n(t){const i=Number(String(t).replace(/\s/g,"").replace(",","."));return Number.isFinite(i)&&i>0?Math.round(i*100):null}const r=t=>"€ "+(t/100).toLocaleString("it-IT",{minimumFractionDigits:2,maximumFractionDigits:2});export{r as f,n as t};
